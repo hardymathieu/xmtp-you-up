@@ -48,9 +48,7 @@ Add the following line to the crontab file
 
 > 30 6 * * * /usr/bin/node /home/you/xmtp-you-up/gm.js
 
-Save and exit the editor:
-* If you're using nano, press Ctrl+X, then Y, then Enter.
-* For vim, press Esc, type :wq, then press Enter.
+Save and exit the editor. If you're using nano, press Ctrl+X, then Y, then Enter.
 
 Done!
 
