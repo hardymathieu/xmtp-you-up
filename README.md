@@ -33,12 +33,12 @@ Install the required dependencies:
 
 Note: I'm using ethers v5 here as it's compatible with the current version of xmtp-js.
 
-Create a new file named gm.js and paste the code into it.
+Create a new file named gm.js and paste the code that you find in the [basic-gm.js file in this repo](https://github.com/hardymathieu/xmtp-you-up/blob/main/basic-gm.js) into it.
 
 To run the script:
-> node gm.js
+> node basic-gm.js
 
-## to send every morning at 6:30 am
+## to send every morning at 6:30 am, use cron
 
 Open the crontab file for editing
 
@@ -46,7 +46,7 @@ Open the crontab file for editing
 
 Add the following line to the crontab file
 
-> 30 6 * * * /usr/bin/node /home/you/xmtp-you-up/gm.js
+> 30 6 * * * /usr/bin/node /home/you/xmtp-you-up/basic-gm.js
 
 Save and exit the editor. If you're using nano, press Ctrl+X, then Y, then Enter.
 
@@ -62,7 +62,7 @@ in the terminal.
 * Make sure your script has the necessary permissions to run.
 
 
-# taking it a step furhter reading a page, summarizing it, and sending that over XMTP
+# taking it a step furhter: reading a page, summarizing it, and sending that over XMTP instead of a GM
 This is wholly unecessary for the purpouse of solving my problem. 
 But I have ollama and I kinda want to find out what I can do :) 
 Read on for useless stuff.
