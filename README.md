@@ -19,19 +19,19 @@ if I'm gonna do all that, I might as well have it send me something somewhat use
 # Setting up Node.js
 
 Create a new directory. From the terminal, you'd do it like this:
-mkdir xmtp-you-up
+> mkdir xmtp-you-up
 Then get in there
-cd xmtp-you-up
+> cd xmtp-you-up
 
 Once in there, initialize a new Node.js project:
-npm init -y
+> npm init -y
 
 Install the required dependencies:
-npm install @xmtp/xmtp-js ethers@5.7.2
+> npm install @xmtp/xmtp-js ethers@5.7.2
 
 Note: I'm using ethers v5 here as it's compatible with the current version of xmtp-js.
 
 Create a new file named gm.js and paste the code into it.
 
 To run the script:
-node gm.js
+> node gm.js
