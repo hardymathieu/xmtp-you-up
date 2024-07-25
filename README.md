@@ -8,10 +8,13 @@ Sometimes it dies, and because it's hidden away somewhere and I don't need to do
 I want to know that it's dead. The easiest way is for it to let me know it's still there. 
 A bit like the [canary thing](https://en.wikipedia.org/wiki/Warrant_canary). 
 
-I don't want emails, SMS is too expensive and overkill, I don't have an app to create a nice notificaiton on my phone by myself. 
-And that's how I thought of XMTP. 
+I don't want emails (email servers are a pain), SMS is too expensive, I don't have an app to create a nice push notificaiton on my phone by myself. 
+And that's how I thought of XMTP. Because I have [converse](https://getconverse.app/) (which is awesome), and it will also show up in Hey.xyz and Orb. 
 
-After looking in their documentation, and some help from Claude, yup, it's real easy to send messages through XMTP. The most annoying part is setting up node.js. I would have preferred python.
+After looking in their documentation, and some help from Claude, yup, it's real easy to send messages through XMTP. 
+No email server to setup, and it's free. And I get a push notification on my phone.
+
+The most annoying part is setting up node.js. I would have preferred python.
 
 ## Nice to have
 if I'm gonna do all that, I might as well have it send me something somewhat useful, and not just a "GM".
