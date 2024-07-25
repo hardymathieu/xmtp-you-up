@@ -42,7 +42,7 @@ async function main() {
   const conversation = await xmtp.conversations.newConversation(recipientAddress);
 
   // Send a message
-  const message = 'Hello from XMTP on production!';
+  const message = 'GM! I'm alive';
   await conversation.send(message);
 
   console.log(`Message sent to ${recipientAddress}: "${message}"`);
