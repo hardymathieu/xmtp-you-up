@@ -38,4 +38,23 @@ Create a new file named gm.js and paste the code into it.
 To run the script:
 > node gm.js
 
-# reading a page, summarizing it, and sending that over XMTP
+## to send every morning at 6:30 am
+
+Open the crontab file for editing
+
+> crontab -e
+
+Add the following line to the crontab file
+
+> 30 6 * * * /usr/bin/node /home/you/xmtp-you-up/gm.js
+
+Save and exit the editor:
+* If you're using nano, press Ctrl+X, then Y, then Enter.
+* For vim, press Esc, type :wq, then press Enter.
+
+Done!
+
+# taking it a step furhter reading a page, summarizing it, and sending that over XMTP
+This is wholly unecessary for the purpouse of solving my problem. 
+But I have ollama and I kinda want to find out what I can do :) 
+Read on for useless stuff.
