@@ -13,10 +13,10 @@ And that's how I thought of XMTP.
 
 After looking in their documentation, and some help from Claude, yup, it's real easy to send messages through XMTP. The most annoying part is setting up node.js. I would have preferred python.
 
-# Nice to have
+## Nice to have
 if I'm gonna do all that, I might as well have it send me something somewhat useful, and not just a "GM".
 
-# Setting up Node.js
+# Setting up Node.js & sending a message
 
 Create a new directory. From the terminal, you'd do it like this:
 > mkdir xmtp-you-up
@@ -37,3 +37,5 @@ Create a new file named gm.js and paste the code into it.
 
 To run the script:
 > node gm.js
+
+# reading a page, summarizing it, and sending that over XMTP
