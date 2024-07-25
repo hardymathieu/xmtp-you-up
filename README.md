@@ -54,6 +54,11 @@ Save and exit the editor:
 
 Done!
 
+Claude also had this to say which beginners like me might find useful:
+* Ensure that the Node.js path is correct. You can find it by running **which node** in the terminal.
+* Make sure your script has the necessary permissions to run.
+
+
 # taking it a step furhter reading a page, summarizing it, and sending that over XMTP
 This is wholly unecessary for the purpouse of solving my problem. 
 But I have ollama and I kinda want to find out what I can do :) 
