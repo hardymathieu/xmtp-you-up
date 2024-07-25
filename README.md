@@ -62,7 +62,7 @@ in the terminal.
 * Make sure your script has the necessary permissions to run.
 
 
-# taking it a step furhter: reading a page, summarizing it, and sending that over XMTP instead of a GM
+# taking it a step further: reading a page, summarizing it, and sending that over XMTP instead of a GM
 This is wholly unecessary for the purpouse of solving my problem. 
 But I have ollama and I kinda want to find out what I can do :) 
 Read on for useless stuff.
