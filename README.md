@@ -53,7 +53,12 @@ Save and exit the editor. If you're using nano, press Ctrl+X, then Y, then Enter
 Done!
 
 Claude also had this to say which beginners like me might find useful:
-* Ensure that the Node.js path is correct. You can find it by running **which node** in the terminal.
+* Ensure that the Node.js path is correct. You can find it by running
+
+> **which node**
+
+in the terminal.
+
 * Make sure your script has the necessary permissions to run.
 
 
