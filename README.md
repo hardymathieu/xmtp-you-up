@@ -20,7 +20,9 @@ if I'm gonna do all that, I might as well have it send me something somewhat use
 
 Create a new directory. From the terminal, you'd do it like this:
 > mkdir xmtp-you-up
+
 Then get in there
+
 > cd xmtp-you-up
 
 Once in there, initialize a new Node.js project:
