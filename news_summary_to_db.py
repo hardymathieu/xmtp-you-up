@@ -1,4 +1,4 @@
-#!/home/hymath/xmtp-you-up/xmtppy/bin/python
+#!/home/you/xmtp-you-up/xmtppy/bin/python
 #-*- coding: utf-8 -*- 
 
 
@@ -10,7 +10,7 @@ import logging
 import ollama
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='/home/hymath/xmtp-you-up/rtbf_scraper.log', filemode='a')
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', filename='/home/you/xmtp-you-up/rtbf_scraper.log', filemode='a')
 logger = logging.getLogger()
 
 # Initialize Ollama client
@@ -88,7 +88,7 @@ def main():
     try:
         logger.info("Connecting to SQLite database.")
         print("Connecting to SQLite database.")  # Added print statement
-        conn = sqlite3.connect('/home/hymath/xmtp-you-up/rtbf_news.db')
+        conn = sqlite3.connect('/home/you/xmtp-you-up/rtbf_news.db')
         cursor = conn.cursor()
         
         # Create table if it doesn't exist
