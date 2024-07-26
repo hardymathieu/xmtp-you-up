@@ -3,7 +3,7 @@ To know if my computer is up, it sends me a little message through XMTP every mo
 
 # Need
 I have a little (linux) computer that runs litte tasks for me, like [taking custody of my NFTs](https://github.com/hardymathieu/nftsave) 
-Sometimes it dies, and because it's hidden away somewhere and I don't need to do stuff with it daily, sometimes I don't notice. But that means I miss NFT backups, or adding stuff to my a notion table for me (which it is also tasked with doing)
+Sometimes it dies, and because it's hidden away somewhere and I don't need to do stuff with it daily, sometimes I don't notice. But that means I miss NFT backups, or adding stuff to a notion table for me (which it is also tasked with doing)
 
 I want to know that it's dead. The easiest way is for it to let me know it's still there. 
 A bit like the [canary thing](https://en.wikipedia.org/wiki/Warrant_canary). 
